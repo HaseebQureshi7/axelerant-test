@@ -237,10 +237,10 @@ h5 {
   cursor: pointer;
   position: relative;
 }
-&:checked {
+:checked {
   + {
     .config-section__config {
-      :before {
+      &:before {
         content: '\f058';
         font-family: 'FontAwesome';
         background: rebeccapurple;

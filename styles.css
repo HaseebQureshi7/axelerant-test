@@ -94,7 +94,7 @@
 
 .section-account__row__acc-pic {
   width: 320px;
-  background: url(http://www.vsolutionindia.com/wp-content/uploads/2019/08/AccountIcon2.png);
+  background: url(./acc.png);
   height: 310px;
 }
 
@@ -581,6 +581,7 @@ h5 {
   .section-account__row__acc-pic {
     width: 40vh !important;
     height: 40vh !important;
+    background-repeat: no-repeat;
   }
   .config-section {
     padding: 0 !important;
